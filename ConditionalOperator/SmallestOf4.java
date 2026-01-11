@@ -1,4 +1,4 @@
-package ConditionalOperatior;
+package ConditionalOperator;
 
 import java.util.Scanner;
 
@@ -19,3 +19,4 @@ public class SmallestOf4 {
         sc.close();
     }
 }
+
