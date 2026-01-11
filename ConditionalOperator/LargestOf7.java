@@ -1,4 +1,4 @@
-package ConditionalOperatior;
+package ConditionalOperator;
 
 import java.util.Scanner;
 
@@ -33,3 +33,4 @@ public class LargestOf7 {
         sc.close();
     }
 }
+
