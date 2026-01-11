@@ -1,4 +1,4 @@
-package ConditionalOperatior;
+package ConditionalOperator;
 
 import java.util.Scanner;
 
@@ -32,3 +32,4 @@ public class SmallestOf7 {
         sc.close();
     }
 }
+
