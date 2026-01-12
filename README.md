@@ -1,7 +1,7 @@
 # Core-Java-Practice
 Beginner-friendly Core Java practice programs created while learning Java fundamentals.
 
-This repository contains my daily Core Java practice programs written while learning Java fundamentals.
+### This repository contains my daily Core Java practice programs written while learning Java fundamentals.
 
 ### Topics Covered 
 - Conditional statements
