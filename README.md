@@ -7,6 +7,7 @@ Beginner-friendly Core Java practice programs created while learning Java fundam
 - Conditional statements
 - Loops
 - Pattern
+- Recursion
 - Array
 - String
 
