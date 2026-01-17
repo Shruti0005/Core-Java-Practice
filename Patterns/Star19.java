@@ -19,11 +19,11 @@ public class Star19 {
             System.out.println();
         }
         //Lower hourglass part
-        for (int i = 1; i <= star-1; i++) {
-            for (int j = star-1; j >= i+1; j--) {
+        for (int i = star-1; i >= 1; i--) {
+            for (int j = 1; j <= i-1; j++) {
                 System.out.print("  ");
             }
-            for (int j = 1; j <= i*2+1; j++) {
+            for (int j = star*2-i; j >= i; j--) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -31,3 +31,4 @@ public class Star19 {
         sc.close();
     }
 }
+
