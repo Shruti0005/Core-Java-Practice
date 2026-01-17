@@ -24,12 +24,12 @@ public class Star15 {
             System.out.println();
         }
         //Lower diamond hollow part
-        for (int i = 1; i <= star-1; i++) {
-            for (int j = 1; j <= i; j++) {
+         for (int i = star-1; i >= 1; i--) {
+            for (int j = star-1; j >= i; j--) {
                 System.out.print("  ");
             }
-            for (int j = star*2-2; j >= i+i; j--) {
-                if (j == i+i || j == star*2-2) {
+            for (int j = 1; j <= i*2-1; j++) {
+                if (j == 1 || j == i*2-1) {
                     System.out.print("* ");
                 }
                 else{
@@ -41,3 +41,4 @@ public class Star15 {
         sc.close();
     }
 }
+
