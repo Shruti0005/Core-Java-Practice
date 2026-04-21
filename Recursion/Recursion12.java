@@ -3,24 +3,21 @@ package Recursion;
 import java.util.Scanner;
 
 public class Recursion12 {
-    static int rev = 0;
-    public static int palin(int n) {
+    public static int palin(int n, int rev) {
         //Base case
         if (n == 0) {
             return rev;
         }
 
-        int lastDigit = n % 10;
-        rev = rev * 10 + lastDigit;
-
         //Recursive call
-        return palin(n/10);
+        return palin(n/10, rev * 10 + (n % 10));
     }
     public static void main(String[] args) {
         //Check given number is Palindrome or not
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value: ");
         int num = sc.nextInt();
-        if (num == palin(num)) {
+        if (num == palin(num, 0)) {
             System.out.println("It's a Palindrome");
         }
         else{
