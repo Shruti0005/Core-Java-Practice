@@ -23,6 +23,9 @@ public class Recursion20 {
         //Check if given number is a strong number or not
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        if(num < 0){
+            System.out.println("Invalid number");
+        }
 
         Recursion20 r2 = new Recursion20();
         int sum = r2.sumStrong(num);
