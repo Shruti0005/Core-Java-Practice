@@ -34,7 +34,7 @@ public class Menu_Driven_ATM_Program {
 				double amount = sc.nextDouble();
 				if(amount > 0 && amount <= balance) {
 					balance = balance - amount;
-					System.out.println("Insufficient Balance: ₹" + Math.abs(balance));
+					System.out.println("Insufficient Balance: ₹" + balance);
 				}
 				else {
 					System.out.println("Insufficiant balance you can't withdraw.");
