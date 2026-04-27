@@ -18,7 +18,10 @@ public class InRangeButNotDivisible {
 		System.out.print("\nEnter the divisior: ");
 		int divisior = sc.nextInt();
 
-		if ((num >= lowerRange && num <= higherRange) && num % divisior != 0) {
+		if (divisior == 0) {
+           System.out.println("Invalid divisor (cannot be 0)");
+        }
+		else if ((num >= lowerRange && num <= higherRange) && num % divisior != 0) {
 			System.out.println("Valid number.");
 		} else {
 			System.out.println("Invalid number.");
