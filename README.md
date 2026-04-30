@@ -11,5 +11,6 @@ Beginner-friendly Core Java practice programs created while learning Java fundam
 - Array
 - String
 
+## Mini-Project 
 ### Goal
 To improve problem-solving skills and build a strong foundation in core java
